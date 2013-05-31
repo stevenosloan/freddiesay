@@ -1,4 +1,3 @@
-require 'erb'
 require 'freddiesay/templates'
 
 module FreddieSay
@@ -8,7 +7,7 @@ module FreddieSay
     end
 
     def say message
-      puts @template.render(message)
+      @template.render(message)
     end
   end
 end
