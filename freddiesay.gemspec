@@ -12,7 +12,11 @@ Gem::Specification.new do |s|
   s.email         = ["stevenosloan@gmail.com"]
   s.homepage      = "http://github.com/stevenosloan/freddiesay"
 
-  s.files         = Dir["{lib}/**/*.rb", "{lib}/**/*.txt"]
+  s.files         = Dir["lib/**/*.rb", "lib/**/*.txt"]
+  s.executable   = "freddiesay"
   s.require_path  = "lib"
+
+  # Utilties
+  s.add_dependency "thor"
 
 end
