@@ -1,16 +1,21 @@
-```
+A simple utility to have an ASCII freddie speak.
+
+Use
+===
+
+As a CLI
+
+```bash
+$ freddiesay say "Eep! Eep!"
     ______
    / ___M ]__
 C{ ( o o )}
     {     ••
       \___     <  Eep! Eep!
       ----´
-
 ```
 
-
-Use
-===
+In Ruby
 
 ```ruby
 require 'freddiesay'

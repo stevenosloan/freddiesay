@@ -1,3 +1,6 @@
+# 0.0.4
+- add a cli utility
+
 # 0.0.3
 - don't require 'erb'
 - say returns, not puts
