@@ -1,3 +1,6 @@
+# 0.0.5
+- use em dashes instead of hyphens so freddie is valid in html comments [h/t wiinci]
+
 # 0.0.4
 - add a cli utility
 
